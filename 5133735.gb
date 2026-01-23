@@ -1,0 +1,85 @@
+LOCUS       NC_007063               1446 bp    DNA     linear   PHG 11-JAN-2023
+DEFINITION  Staphylococcus phage 88, complete genome.
+ACCESSION   NC_007063 REGION: 23647..25092
+VERSION     NC_007063.1
+DBLINK      BioProject: PRJNA485481
+KEYWORDS    RefSeq.
+SOURCE      Staphylococcus phage 88
+  ORGANISM  Staphylococcus phage 88
+            Viruses; Duplodnaviria; Heunggongvirae; Uroviricota;
+            Caudoviricetes; Caudoviricetes incertae sedis; Phietavirus;
+            Phietavirus pv88.
+REFERENCE   1  (bases 1 to 1446)
+  AUTHORS   Kwan,T., Liu,J., DuBow,M., Gros,P. and Pelletier,J.
+  TITLE     The complete genomes and proteomes of 27 Staphylococcus aureus
+            bacteriophages
+  JOURNAL   Proc. Natl. Acad. Sci. U.S.A. 102 (14), 5174-5179 (2005)
+   PUBMED   15788529
+REFERENCE   2  (bases 1 to 1446)
+  CONSRTM   NCBI Genome Project
+  TITLE     Direct Submission
+  JOURNAL   Submitted (23-MAY-2005) National Center for Biotechnology
+            Information, NIH, Bethesda, MD 20894, USA
+REFERENCE   3  (bases 1 to 1446)
+  AUTHORS   Kwan,T., Liu,J., DuBow,M., Gros,P. and Pelletier,J.
+  TITLE     Direct Submission
+  JOURNAL   Submitted (03-MAR-2005) Targanta Therapeutics, 7170 Frederick
+            Banting, Second Floor, Ville Saint Laurent, Quebec H4S 2A1, Canada
+COMMENT     VALIDATED REFSEQ: This record has undergone validation or
+            preliminary review. This record has been curated by Dr. Andrew M.
+            Kropinski (Laboratory for Foodborne Zoonoses, Public Health Agency
+            of Canada). The reference sequence was derived from AY954966.
+            COMPLETENESS: full length.
+FEATURES             Location/Qualifiers
+     source          1..1446
+                     /organism="Staphylococcus phage 88"
+                     /mol_type="genomic DNA"
+                     /host="Staphylococcus aureus"
+                     /db_xref="taxon:2908115"
+     gene            1..1446
+                     /locus_tag="ST88ORF006"
+                     /db_xref="GeneID:5133735"
+     CDS             1..1446
+                     /locus_tag="ST88ORF006"
+                     /codon_start=1
+                     /transl_table=11
+                     /product="endolysin"
+                     /protein_id="YP_240699.1"
+                     /db_xref="GeneID:5133735"
+                     /translation="MQAKLTKKEFIEWLKTSEGKQFNVDLWYGFQCFDYANAGWKVLF
+                     GLLLKGLGAKDIPFANNFDGLATVYQNTPDFLAQPGDMVVFGSNYGAGYGHVAWVIEA
+                     TLDYIIVYEQNWLGGGWTDRIEQPGWGWEKVTRRQHAYDFPMWFIRPNFKSETAPRSI
+                     QSPTQASKKETAKPQPKAVELKIIKDVVKGYDLPKRGGNPKGIVIHNDAGSKGATAEA
+                     YRNGLVNAPSSRLEAGIAHSYVSGNTVWQALDESQVGWHTANQLGNKYYYGIEVCQSM
+                     GADNATFLKNEQATFQECARLLKKWGLPANRNTIRLHNEFTSTSCPHRSSVLHTGFDP
+                     VTRGLLPEDKQLQLKDYFIKQIRVYMDGKIPVATVSNESSASSNTVKPVASAWKRNKY
+                     GTYYMEESARFTNGNQPITVRKIGPFLSCPVAYQFQPGGYCDYTEVMLQDGHVWVGYT
+                     WEGQRYYLPIRTWNGSAPPNQILGDLWGEIS"
+ORIGIN      
+        1 atgcaagcaa aattaactaa aaaagagttt atagagtggt tgaaaacttc tgagggaaaa
+       61 caattcaatg tggacttatg gtatggattt caatgctttg attatgccaa tgctggttgg
+      121 aaagttttgt ttggattact tctgaaaggt ttaggtgcaa aagatatacc atttgcaaac
+      181 aatttcgatg gactagctac tgtataccaa aatacaccgg actttttggc acaacccggc
+      241 gacatggttg tattcggtag caattacggt gcaggatacg gacacgtagc atgggtaatt
+      301 gaagcaactt tagattatat cattgtatat gagcagaatt ggctaggcgg tggctggact
+      361 gacagaatcg aacaacccgg ctggggttgg gaaaaagtta caagacgaca acatgcttac
+      421 gatttcccta tgtggtttat ccgtcctaac ttcaaaagcg aaacagctcc acgatcaata
+      481 caatctccta cgcaagcatc taaaaaggaa acagctaagc cacaacctaa agcggtagaa
+      541 cttaaaatta tcaaagatgt ggttaaaggt tatgaccttc ctaaacgtgg tggtaatcct
+      601 aagggtatag ttattcataa cgacgcagga agcaaagggg caacagcaga agcgtatcga
+      661 aacggattag ttaacgcacc ttcatcaaga ttagaagcgg gtattgcgca tagttatgta
+      721 tcaggtaaca cagtgtggca agctttagat gaatcgcaag taggttggca tactgctaac
+      781 caattaggca ataaatatta ttacggtatt gaagtgtgtc aatcaatggg agcggataat
+      841 gcgacgtttt taaaaaatga acaggcgact ttccaagaat gcgctagatt gttgaaaaaa
+      901 tggggattac cagcaaacag aaatacaatc agattacaca acgaattcac ttcaacatca
+      961 tgcccacaca gaagctcagt attgcacact ggttttgacc cagtaactcg tggcctattg
+     1021 ccggaagata aacaattaca acttaaagac tactttatca agcaaattag agtgtatatg
+     1081 gacggtaaga taccagttgc cactgtctct aatgagtcaa gcgcttcaag taatacagtt
+     1141 aaaccagttg cgagtgcatg gaaacgtaat aaatatggta cttactacat ggaagaaagt
+     1201 gctagattca caaacggtaa tcaaccaatc actgtaagaa aaataggacc attcttatca
+     1261 tgcccggtag cttaccaatt ccaacctggt ggatattgtg attatacaga agtgatgtta
+     1321 caagatggtc atgtttgggt aggatataca tgggaggggc aacgttatta cttgcctatt
+     1381 agaacatgga atggttctgc cccacctaat cagatattag gtgacttatg gggagaaatc
+     1441 agttag
+//
+

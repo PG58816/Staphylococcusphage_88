@@ -1,0 +1,418 @@
+CLUSTAL O(1.2.4) multiple sequence alignment
+
+
+NC_010808_tail         ------------------------------------------------------------	0
+NC_011614_tail         ------------------------------------------------------------	0
+ON571632_tail          ATGGTAGTAGATAATTTTTCAAAAGATGATAACTTAATCGAGTTACAAACAACATCACAA	60
+PP098624_tail          --------------ATGTACA---------AA-ATAAAAGATGTTGAAACGAGAATAAAA	36
+NC_028917_tail         --------------ATGTACA---------AA-ATAAAAGATGTTGAAACGAGAATAAAA	36
+NC_054980_tail         ------------------------------------------------------------	0
+NC_007062_tail         ------------------------------------------------------------	0
+NC_007060_tail         ------------------------------------------------------------	0
+Phage_88_Original      ------------------------------------------------------------	0
+NC_007063_tail         ------------------------------------------------------------	0
+NC_010147_tail         ------------------------------------------------------------	0
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	0
+NC_011614_tail         ------------------------------------------------------------	0
+ON571632_tail          TATAATCCGGTTATTGACACAAACATCAGTTTCTATGAATCAGATAGAGGAACTGGTGTT	120
+PP098624_tail          AAT---GATGGTGTTGACTTAGGTGACAT--------------------------TGGCT	67
+NC_028917_tail         AAT---GATGGTGTTGACTTAGGTGACAT--------------------------TGGCT	67
+NC_054980_tail         ------------------------------------------------------------	0
+NC_007062_tail         ------------------------------------------------------------	0
+NC_007060_tail         ------------------------------------------------------------	0
+Phage_88_Original      ------------------------------------------------------------	0
+NC_007063_tail         ------------------------------------------------------------	0
+NC_010147_tail         ------------------------------------------------------------	0
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	0
+NC_011614_tail         ------------------------------------------------------------	0
+ON571632_tail          TTAAATTTTGCAGTAACTAAGAATAATAAGCC--GTTATCAATCAGCAAACATAATGCGA	178
+PP098624_tail          GTCGATTTTACACTGAAGATGAAAATACAGCATCTATAAGAATAGGTATCAATGACAAAC	127
+NC_028917_tail         GTCGATTTTACACTGAAGATGAAAATACAGCATCTATAAGAATAGGTATCAATGACAAAC	127
+NC_054980_tail         ------------ATGAAAATCAC-----------------------AGTAAACGAT----	21
+NC_007062_tail         ------------ATGAAAATCAC-----------------------AGTAAACGAT----	21
+NC_007060_tail         ------------ATGAAAATCAC-----------------------AGTAAACGAT----	21
+Phage_88_Original      ------------ATGAAAATCAC-----------------------AGTAAACGAT----	21
+NC_007063_tail         ------------ATGAAAATCAC-----------------------AGTAAACGAT----	21
+NC_010147_tail         ------------ATGAAAATCAC-----------------------AGTAAACGAT----	21
+                                                                                   
+
+NC_010808_tail         -------------------------------------ATGACACCAAACTTAC-------	16
+NC_011614_tail         -------------------------------------ATGACACCGAACTTAC-------	16
+ON571632_tail          TGACTAGTATTGTGCTTAAGACGGATAACTTCGACGATGAACACGGCGCTTATATTAG--	236
+PP098624_tail          AAGGTCGTATCGATCTAAAAGCACAT--------GGCTTAACACCTAGATTACATTTGTT	179
+NC_028917_tail         AAGGTCGTATCGATCTAAAAGCACAT--------GGCTTAACACCTAGATTACATTTATT	179
+NC_054980_tail         ------------------------------------------------------------	21
+NC_007062_tail         ------------------------------------------------------------	21
+NC_007060_tail         ------------------------------------------------------------	21
+Phage_88_Original      ------------------------------------------------------------	21
+NC_007063_tail         ------------------------------------------------------------	21
+NC_010147_tail         ------------------------------------------------------------	21
+                                                                                   
+
+NC_010808_tail         -------------------------------AACTTTATA----ATAATGCGTTTGAAAC	41
+NC_011614_tail         -------------------------------AACTTTATA----ATAAAGCGTATGAAAC	41
+ON571632_tail          ---------------------------TGATGAACTTACAATTGTTGATGCAATTAATGG	269
+PP098624_tail          TATGGAAGATGGCTCTATATTCAAAAATGAGCCCCTTATTATCGACGATGTTGTAAAAGG	239
+NC_028917_tail         TATGGAAGATGGCTCTATATTCAAAAATGAGCCCCTTATTATCGACGATGTTGTAAAAGA	239
+NC_054980_tail         ------------------------------------------------------------	21
+NC_007062_tail         ------------------------------------------------------------	21
+NC_007060_tail         ------------------------------------------------------------	21
+Phage_88_Original      ------------------------------------------------------------	21
+NC_007063_tail         ------------------------------------------------------------	21
+NC_010147_tail         ------------------------------------------------------------	21
+                                                                                   
+
+NC_010808_tail         GCTACAAGGATATGGATTCCCTGTTATTTCTCGTAAAGAGATGCAACAAGAGGTTCCGTA	101
+NC_011614_tail         GCTACAAGGATATGGGTTCCCTGTTATTTCTCGTAAAGAGATGCAACAAGAGATTCCGTA	101
+ON571632_tail          ACGAATGCAATATGTTATCCCTAACGAGTTTTTAAAATACACTGGTCGAGTACATGCGCA	329
+PP098624_tail          GTTCCTTACCTACAAAATACCTAAAAAGGTTATCAAACACGCTGGTTATGTTCGTTGTAA	299
+NC_028917_tail         GTTCCTTACCTACAAGATACCTAAAAAGGTTATCAAACACGCTGGTTATGTTCGTTGTAA	299
+NC_054980_tail         -------------------AAAAACGAAGTTATCGGATACGTTAATACTGGCGGTTTACG	62
+NC_007062_tail         -------------------AAAAACGAAGTTATCGGATTCGTTAATACTGGCGGTTTACG	62
+NC_007060_tail         -------------------AAAAACGAAGTTATCGGATTCGTTAATACTGGCGGTTTACG	62
+Phage_88_Original      -------------------AAAAACGAAGTTATCGGATTCGTTAATACTGGCGGTTTACG	62
+NC_007063_tail         -------------------AAAAACGAAGTTATCGGATTCGTTAATACTGGCGGTTTACG	62
+NC_010147_tail         -------------------AAAAACGAAGTTATCGGATACGTTAATACTGGCGGTTTACG	62
+                                                     *     *            *    *     
+
+NC_010808_tail         TCCTTTTTTTGTAATAAAAATGCCGGAGTCAAACAGAAGTAAATACACGTTTGATAGTTA	161
+NC_011614_tail         TCCTTTTTTTGTCATAAAAATGCCGGAGTCAAATAGAAGTAAGTACACCTTTGATAGTTA	161
+ON571632_tail          AGCATATTTTACTC-AAAACGGTAGCAATAACGTAATTGTAG-----------AACGTCA	377
+PP098624_tail          GCTGTTTTTAGAGA--AAGAAGAAGAAAAAATACATGTCGCG-----------A-----A	341
+NC_028917_tail         GCTGTTTTTAGAGA--AAGAAGAAGAAAAAATACATGTCGCG-----------A-----A	341
+NC_054980_tail         CAATAGTTTAGATG--TAGACGATAACAA-------------------------------	89
+NC_007062_tail         CAATAGTTTAGATG--TAGATGATAACAA-------------------------------	89
+NC_007060_tail         CAATAGTTTAGATG--TAGACGATAACAA-------------------------------	89
+Phage_88_Original      CAATAGTTTAGATG--TAGATGATAACAA-------------------------------	89
+NC_007063_tail         CAATAGTTTAGATG--TAGATGATAACAA-------------------------------	89
+NC_010147_tail         TAATAGTTTAGATG--TAGACGATAACAA-------------------------------	89
+                             ***        *   *                                      
+
+NC_010808_tail         TTCTGGTGACACGAATTTAGTTATTGATATTTGGAGTGTAAGTGATGATTTAGGACATCA	221
+NC_011614_tail         TTCTGGCGACACGAATTTAGTTATTGATATTTGGAGTGTAAGCGATGATTTAGGACATCA	221
+ON571632_tail          ---------ATTTAACTTCAATATCCAGAATGATCTAATTAGTAATTTTGACGGTAAAAC	428
+PP098624_tail          ---------CTTTTCTTTCAATATCATTGATAGTGGTATTGAATCTGCTGT------AGC	386
+NC_028917_tail         ---------CTTTTCTTTCAATATCGTTGATAGTGGCATTGAATCTGCTGT------AGC	386
+NC_054980_tail         ------------------------------------------------------------	89
+NC_007062_tail         ------------------------------------------------------------	89
+NC_007060_tail         ------------------------------------------------------------	89
+Phage_88_Original      ------------------------------------------------------------	89
+NC_007063_tail         ------------------------------------------------------------	89
+NC_010147_tail         ------------------------------------------------------------	89
+                                                                                   
+
+NC_010808_tail         TGACGGACTTGTTAAAAGATGTATTGATGATTTAACACCTAGCGTTAAAACAAACGATTA	281
+NC_011614_tail         TGACGAACTCGTTAAAAGATGTATTGATGATTTAACACCTAGCGTTAAAACAAACAATTA	281
+ON571632_tail          AAAGCTAGTTTATATCAAATCAATTCAGGACTTAACAGAAAGTGTTAAAGAAGAAGTTGA	488
+PP098624_tail          AAAAGAAATCGAT------------------------------GTTAAATTGGTAGATGA	416
+NC_028917_tail         AAAAGAAATCGAT------------------------------GTTAAATTGGTAGATGA	416
+NC_054980_tail         ------TGTGCCT------------------------------ATCAAATTCAAAGAAGA	113
+NC_007062_tail         ------TGTGCCT------------------------------ATTAAATTTAAAGAAGA	113
+NC_007060_tail         ------TGTGCCT------------------------------ATCAAATTCAAAGAAGA	113
+Phage_88_Original      ------TGTGCCT------------------------------ATTAAATTTAAAGAAGA	113
+NC_007063_tail         ------TGTGCCT------------------------------ATTAAATTTAAAGAAGA	113
+NC_010147_tail         ------TGTGCCT------------------------------ATCAAATTCAAAGAAGA	113
+                               *   *                               * ***          *
+
+NC_010808_tail         TGACTTTGAAGAAGATGATACTAACATCACACAGTTAGTTGATGATACTACCA-------	334
+NC_011614_tail         TGACTTTGAAGAAGACGATACTAACATCACACAGTTAGTTGATGATACTACCA-------	334
+ON571632_tail          GGACTTAAAGAAAAGTTTAAGTGATACAAAATCGTTGGTTACTGAAATTGATAGTCGTAT	548
+PP098624_tail          TGCTATTACGAGAATCTTAAAAGATAACG-------------------CGACAGATTTAT	457
+NC_028917_tail         TGCTATTACGAGAATCTTAAAAGATAACG-------------------CGACAGATTTAT	457
+NC_054980_tail         GT---------------TCGAACCTAGAA-------------------AGTTCGTTTTCA	139
+NC_007062_tail         GT---------------TCGAACCTAGAA-------------------AGTTTGTTTTCA	139
+NC_007060_tail         GT---------------TCGAACCTAGAA-------------------AGTTCGTTTTCA	139
+Phage_88_Original      GT---------------TCGAACCTAGAA-------------------AGTTTGTTTTCA	139
+NC_007063_tail         GT---------------TCGAACCTAGAA-------------------AGTTTGTTTTCA	139
+NC_010147_tail         GT---------------TCGAACCTAGAA-------------------AGTTTGTTTTCA	139
+                                                *                                  
+
+NC_010808_tail         --ATCAAGAA----------------------------TTGCTACACACA----------	354
+NC_011614_tail         --ATCAAGAA----------------------------TTGCTACACACA----------	354
+ON571632_tail          TAATCAAGGTATTCAAAGATTAGAAATTAAACAAAATGAAGCGGTACAGATGATTACAAC	608
+PP098624_tail          TGAACAAAGACTTTAAAGAGA--------------AAATAGATAAAGATGTCATTTCTTA	503
+NC_028917_tail         TGAGCAAAGACTTTAAAGAGA--------------AAATAGATAAAGATGTTATTTCTTA	503
+NC_054980_tail         CTAACGGCGAAATT-------------------------AAATACAATAGCAATTTCGAA	174
+NC_007062_tail         CTAACGGCGAAATT-------------------------AAATACAATAGCAATTTCGAA	174
+NC_007060_tail         CTAACGGCGAAATT-------------------------AAATACAATAGCAATTTCGAA	174
+Phage_88_Original      CTAACGGCGAAATT-------------------------AAATACAATAGCAATTTCGAA	174
+NC_007063_tail         CTAACGGCGAAATT-------------------------AAATACAATAGCAATTTCGAA	174
+NC_010147_tail         CTAACGGCGAAATT-------------------------AAATACAATAGCAATTTCGAA	174
+                         * *                                        *              
+
+NC_010808_tail         --------------------------TCAGT-----------------------------	359
+NC_011614_tail         --------------------------TCAGT-----------------------------	359
+ON571632_tail          AACACAAGACAAAGCCGTTCAATATATAAATAGCGAGTTCCAGAAAATTGTTGATAAAGA	668
+PP098624_tail          CATCGAAAAGAATGAAAGTAGATTTAAAGG--------TGCG----AAAGGTGATAAAGG	551
+NC_028917_tail         CATCGAAAAGAATGAAAGTAGATTTAAAGG--------TGCG----AAAGGTGATAAAGG	551
+NC_054980_tail         A----------------------------------------------------AAGAAGA	182
+NC_007062_tail         A----------------------------------------------------AAGAAGA	182
+NC_007060_tail         A----------------------------------------------------AAGAAGA	182
+Phage_88_Original      A----------------------------------------------------AAGAAGA	182
+NC_007063_tail         A----------------------------------------------------AAGAAGA	182
+NC_010147_tail         A----------------------------------------------------AAGAAGA	182
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          GCAAGCGATTTT------TGAACGTGTTAACGAAGTTGAACAACAAATCAATGGCGCTGA	722
+PP098624_tail          CGAACCGGGACAACCTGGTGCGAAAGGTGATACAGGTAAAAAGGGAGAACAAGGCACACC	611
+NC_028917_tail         CGAACCGGGACAACCTGGTGCAAAAGGTGAAGCAGGTAAAAAAGGAGAACAAGGCGCACC	611
+NC_054980_tail         CGTACCGAATGCATCAAACCAACAAAGTGAATCAGATTTGA-------------------	223
+NC_007062_tail         CGTACCGAATGCATCAAAACAACAAAGTGAATCAGATTTGA-------------------	223
+NC_007060_tail         CGTACCGAATGCATCAAACCAACAAAGTGCGTCAGATTTAA-------------------	223
+Phage_88_Original      CGTACCGAATGCATCAAACCAACAAAGTGCGTCAGATTTAA-------------------	223
+NC_007063_tail         CGTACCGAATGCATCAAACCAACAAAGTGCGTCAGATTTAA-------------------	223
+NC_010147_tail         CGTACCGAATGCATCAAACCAACAAAGTGCGTCAGATTTAA-------------------	223
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          CCTTGTTAAAGGTAATTCAACAACGAATTGGCAAAAGTCTAAACTTAC------AGATGA	776
+PP098624_tail          CGGTAAAAACGGTACTGTAGTATCAATCAATCCTGACACTAAAATGTGGCAAATTGATGG	671
+NC_028917_tail         CGGTAAAAACGGTACTGTAGTATCAATCAATCCTGACACTAAAATGTGGCAAATTGATGG	671
+NC_054980_tail         ------------------------------------------------------------	223
+NC_007062_tail         ------------------------------------------------------------	223
+NC_007060_tail         ------------------------------------------------------------	223
+Phage_88_Original      ------------------------------------------------------------	223
+NC_007063_tail         ------------------------------------------------------------	223
+NC_010147_tail         ------------------------------------------------------------	223
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          TTACGGTAAAGCAATTGAATCGTATGAGCAGTCCATAGATAGCGTTTTAAGCGCAGTTAA	836
+PP098624_tail          TAAAGATACAGATATCAAAGCAGAACCTGAGTTATTGGACAAAA----------------	715
+NC_028917_tail         TAAAGATACAGATATCAAAGCAGAACCTGAGTTATTGGACAAAA----------------	715
+NC_054980_tail         ------------------------------------------------------------	223
+NC_007062_tail         ------------------------------------------------------------	223
+NC_007060_tail         ------------------------------------------------------------	223
+Phage_88_Original      ------------------------------------------------------------	223
+NC_007063_tail         ------------------------------------------------------------	223
+NC_010147_tail         ------------------------------------------------------------	223
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          CACATCTAGGATTATTCATATTACTAATGCAACAGATGCGCCAGAAAAGACGGATATAGG	896
+PP098624_tail          --------------TCAATATCGCA---------------------------AATGTTGA	734
+NC_028917_tail         --------------TCAATATCGCA---------------------------AATGTTGA	734
+NC_054980_tail         ------------------------------------------------------------	223
+NC_007062_tail         ------------------------------------------------------------	223
+NC_007060_tail         ------------------------------------------------------------	223
+Phage_88_Original      ------------------------------------------------------------	223
+NC_007063_tail         ------------------------------------------------------------	223
+NC_010147_tail         ------------------------------------------------------------	223
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          CACGTTAGAGAAGCCTGGACAAGATGGTGTTGATG---ACGGTTCTTCGTT---CGATGA	950
+PP098624_tail          AGGGTTAGAAAATAAATTGCAAGAAGTTGAAAAAATCAAAGATACAACTCTCAACGACTC	794
+NC_028917_tail         AGGGTTAGAAGATAAATTGCAAGAAGTTGAAAAAATCAAAGATACAACTCTCAACGACTC	794
+NC_054980_tail         ------------------------------------------------------------	223
+NC_007062_tail         ------------------------------------------------------------	223
+NC_007060_tail         ------------------------------------------------------------	223
+Phage_88_Original      ------------------------------------------------------------	223
+NC_007063_tail         ------------------------------------------------------------	223
+NC_010147_tail         ------------------------------------------------------------	223
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          ATCAACTTATACATCAAGCAAATCTGGTGTGTTAGTTGTTTATGTTGTTGATAATAATAC	1010
+PP098624_tail          TAAAACGTATACGGATTCAAAAATTGCTGAACTAGTTGATAGCGCGCCTGAATCTATGA-	853
+NC_028917_tail         TAAAACGTATACGGATTCAAAAATTGCTGAACTAGTTGATAGCGCGCCTGAATCTATGA-	853
+NC_054980_tail         -----------GTGATGAAGAACTTCGCGGAATGGTTGCAAGTATGCAAATGCAGGTGA-	271
+NC_007062_tail         -----------GTGATGAAGAACTTCGCGGAATGGTTGCAAGTATGCAAATGCAGGTGA-	271
+NC_007060_tail         -----------GTGATGAGGAACTTCGCGGAATGGTTGCGAGTATGCAAATGCAGGTGG-	271
+Phage_88_Original      -----------GTGATGAGGAACTTCGCGGAATGGTTGCAAGTATGCAAATGCAGATGA-	271
+NC_007063_tail         -----------GTGATGAGGAACTTCGCGGAATGGTTGCAAGTATGCAAATGCAGATGA-	271
+NC_010147_tail         -----------GTGATGAGGAACTTCGCGGAATGGTTGCGAGTATGCAAATGCAGATGA-	271
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          TGCTCGTGCAACATGGTACCCAGACGATTCAAACGATGAGTACACAAAATACAAAATCTA	1070
+PP098624_tail          --ATACATTAAGAGAATTAGCAGAAG---CAATACAAAACA-------------------	889
+NC_028917_tail         --ATACATTAAGAGAATTAGCAGAAG---CAATACAAAACA-------------------	889
+NC_054980_tail         --CGCAAGTAAACATTTTGGCGATGGAATTAAAGCAACAAA-------------------	310
+NC_007062_tail         --CGCAAGTAAACATTTTGGCGATGGAATTAAAGCAACAAA-------------------	310
+NC_007060_tail         --CACAAGTAAACGTATTAACAATGGAATTAGCTCAACAAA-------------------	310
+Phage_88_Original      --CGCAAGTGAACATGTTGACAATGCAATTGACGCAACAAA-------------------	310
+NC_007063_tail         --CGCAAGTGAACATGTTGACAATGCAATTGACGCAACAAA-------------------	310
+NC_010147_tail         --CGCAAGTGAACATGTTGACAATGCAATTGACGCAACAAA-------------------	310
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          CGGCACATGGTACCCGTTTTATAAAAAGAATGATGGAAACTTAACTAAGCAATTTGTTGA	1130
+PP098624_tail          ----------ACTCTATTTCAGAAAGTGTATTGCAACAGATTGGCTCAAAAGTTAGTACA	939
+NC_028917_tail         ----------ACTCTATTTCAGAAAGTGTATTGCAACAGATTGGCTCAAAAGTTAGTACA	939
+NC_054980_tail         ----------ACGCTATGTTAACACAACAGTT------GACTGAACTAAAAGCTGGTAAA	354
+NC_007062_tail         ----------ACGCTATGTTAACACAACAGTT------GACTGAACTAAAAGCTGGTAAA	354
+NC_007060_tail         ----------ACGCTATGTTAACACAACAGTT------GACTGAACTGAAAACTAACAAA	354
+Phage_88_Original      ----------ACGCTATGTTAACACAACAGTT------GACCGAACTGAAAACTAACAAA	354
+NC_007063_tail         ----------ACGCTATGTTAACACAACAGTT------GACCGAACTGAAAACTAACAAA	354
+NC_010147_tail         ----------ACGCTATGTTAACACAACAGTT------GACCGAACTGAAAACTAACAAA	354
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          AGAAACGTCTAACAACGCTTTAAATCAAGCTAAGCAGTATGTAGATGATAAATTCGGAAC	1190
+PP098624_tail          GA-------------AGATTTTGAGGAATTCAAACAAACACTAAATGATTTATATGCTCC	986
+NC_028917_tail         GA-------------AGATTTTGAGAGATTCAAGCAATCATTAAACAGTTTGTATGCAGA	986
+NC_054980_tail         AC-------------AAATACAGA------------------------------------	365
+NC_007062_tail         AC-------------AAATACAGA------------------------------------	365
+NC_007060_tail         AC-------------AAGTACTGA------------------------------------	365
+Phage_88_Original      AC-------------AAATACTGA------------------------------------	365
+NC_007063_tail         AC-------------AAATACTGA------------------------------------	365
+NC_010147_tail         AC-------------AAATACTGA------------------------------------	365
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          AACGAGCTGGCAACAACATAAGATGACAGAGGCGAATGGTCAATCAATTCAAGTTAACTT	1250
+PP098624_tail          AAA---------AAATCATAATCATGACGAGCGGTATGTTTTGTCATCTCAAGCT---TT	1034
+NC_028917_tail         TAA---------AAATCATAGTCATACAATCAAACAGATTGAAGGATTAGAAAATGCTTT	1037
+NC_054980_tail         ------------------------------------------------------------	365
+NC_007062_tail         ------------------------------------------------------------	365
+NC_007060_tail         ------------------------------------------------------------	365
+Phage_88_Original      ------------------------------------------------------------	365
+NC_007063_tail         ------------------------------------------------------------	365
+NC_010147_tail         ------------------------------------------------------------	365
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          AAATAATGCGCAAGGCGATTTGGGATATTTAACTGCTGGTAATTACTATGCAACAAGAGT	1310
+PP098624_tail          TACTAAACAACAAGCGGATA----------------------------------------	1054
+NC_028917_tail         ATCAAAAAATCAGACATAA-----------------------------------------	1056
+NC_054980_tail         ------------GGAGG-------------------------------------------	370
+NC_007062_tail         ------------GGAGG-------------------------------------------	370
+NC_007060_tail         ------------GGGGG-------------------------------------------	370
+Phage_88_Original      ------------GGGGG-------------------------------------------	370
+NC_007063_tail         ------------GGGGG-------------------------------------------	370
+NC_010147_tail         ------------GGGGG-------------------------------------------	370
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          GCCGGATTTACCAGGTAGCGTTGAAAGTTATGAGGGTTATTTATCGGTATTCGTTAAAGA	1370
+PP098624_tail          ---GTTTATATCAACTAAAA----------------------------------------	1071
+NC_028917_tail         ------------------------------------------------------------	1056
+NC_054980_tail         ------------------------------------------------------------	370
+NC_007062_tail         ------------------------------------------------------------	370
+NC_007060_tail         ------------------------------------------------------------	370
+Phage_88_Original      ------------------------------------------------------------	370
+NC_007063_tail         ------------------------------------------------------------	370
+NC_010147_tail         ------------------------------------------------------------	370
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          TGATACAAACAAGCTATTTAACTTCACACCTTATAACTCTAAAAAGATTTACACACGATC	1430
+PP098624_tail          ----------------------AGCGCATCTCAACCGACGGTTAAAATTTGGACA-----	1104
+NC_028917_tail         ------------------------------------------------------------	1056
+NC_054980_tail         -------------------------------------ACGTTTAA---------------	378
+NC_007062_tail         -------------------------------------ACGTTTAA---------------	378
+NC_007060_tail         -------------------------------------ACGTTTAA---------------	378
+Phage_88_Original      -------------------------------------ACGTTTAA---------------	378
+NC_007063_tail         -------------------------------------ACGTTTAA---------------	378
+NC_010147_tail         -------------------------------------ACGTTTAA---------------	378
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	359
+NC_011614_tail         ------------------------------------------------------------	359
+ON571632_tail          AATCACAAACGGCAGACTTGAGCAACAGTGGACAGTTCCTAATGAACATAAATCAACGGT	1490
+PP098624_tail          ------------------------------------------------------------	1104
+NC_028917_tail         ------------------------------------------------------------	1056
+NC_054980_tail         ------------------------------------------------------------	378
+NC_007062_tail         ------------------------------------------------------------	378
+NC_007060_tail         ------------------------------------------------------------	378
+Phage_88_Original      ------------------------------------------------------------	378
+NC_007063_tail         ------------------------------------------------------------	378
+NC_010147_tail         ------------------------------------------------------------	378
+                                                                                   
+
+NC_010808_tail         ---------------------------------------------AACGATATCTTACAA	374
+NC_011614_tail         ---------------------------------------------AACGATATCTTACAA	374
+ON571632_tail          ATTGTTCGACGGTGGCGCAAATGGTGTAGGTACAACAATCAATCTAACTGAACCGTACAC	1550
+PP098624_tail          -------------GGAACAGAAAATGAATATAACTATATATATCAAAAAGACCCT-----	1146
+NC_028917_tail         ------------------------------------------------------------	1056
+NC_054980_tail         ------------------------------------------------------------	378
+NC_007062_tail         ------------------------------------------------------------	378
+NC_007060_tail         ------------------------------------------------------------	378
+Phage_88_Original      ------------------------------------------------------------	378
+NC_007063_tail         ------------------------------------------------------------	378
+NC_010147_tail         ------------------------------------------------------------	378
+                                                                                   
+
+NC_010808_tail         AACATTTTAA--------------------------------------------------	384
+NC_011614_tail         AACATTTTAA--------------------------------------------------	384
+ON571632_tail          AAACTATTCTATTTTGTTGGTAAGTGGAACTTATCCAGGTGGCGTTATTGAGGGATTCGG	1610
+PP098624_tail          -------------------------------AATACACTTTACTTAATTAAG--------	1167
+NC_028917_tail         ------------------------------------------------------------	1056
+NC_054980_tail         ------------------------------------------------------------	378
+NC_007062_tail         ------------------------------------------------------------	378
+NC_007060_tail         ------------------------------------------------------------	378
+Phage_88_Original      ------------------------------------------------------------	378
+NC_007063_tail         ------------------------------------------------------------	378
+NC_010147_tail         ------------------------------------------------------------	378
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	384
+NC_011614_tail         ------------------------------------------------------------	384
+ON571632_tail          ACTTACCGCATTACCTAACGCGATTCAATTGAGTAAAGCGAATGTAGTTGACTCAGACGG	1670
+PP098624_tail          ------------------------------------------------------------	1167
+NC_028917_tail         ------------------------------------------------------------	1056
+NC_054980_tail         ------------------------------------------------------------	378
+NC_007062_tail         ------------------------------------------------------------	378
+NC_007060_tail         ------------------------------------------------------------	378
+Phage_88_Original      ------------------------------------------------------------	378
+NC_007063_tail         ------------------------------------------------------------	378
+NC_010147_tail         ------------------------------------------------------------	378
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	384
+NC_011614_tail         ------------------------------------------------------------	384
+ON571632_tail          CAACGGTGGCGGTATTTATGAGTGCTTACTATCCAAAACAAGTAGCACTACTTTAAGAAT	1730
+PP098624_tail          ------------------------------------------------------------	1167
+NC_028917_tail         ------------------------------------------------------------	1056
+NC_054980_tail         ------------------------------------------------------------	378
+NC_007062_tail         ------------------------------------------------------------	378
+NC_007060_tail         ------------------------------------------------------------	378
+Phage_88_Original      ------------------------------------------------------------	378
+NC_007063_tail         ------------------------------------------------------------	378
+NC_010147_tail         ------------------------------------------------------------	378
+                                                                                   
+
+NC_010808_tail         ------------------------------------------------------------	384
+NC_011614_tail         ------------------------------------------------------------	384
+ON571632_tail          AGATAACGATGTGTACTTTGATTTAGGTAAAACATCAGGTTCTGGAGCGAATGCCAACAA	1790
+PP098624_tail          ------------------------------------------------------------	1167
+NC_028917_tail         ------------------------------------------------------------	1056
+NC_054980_tail         ------------------------------------------------------------	378
+NC_007062_tail         ------------------------------------------------------------	378
+NC_007060_tail         ------------------------------------------------------------	378
+Phage_88_Original      ------------------------------------------------------------	378
+NC_007063_tail         ------------------------------------------------------------	378
+NC_010147_tail         ------------------------------------------------------------	378
+                                                                                   
+
+NC_010808_tail         ----------------------------------	384
+NC_011614_tail         ----------------------------------	384
+ON571632_tail          AGTTACTATAACTAAAATTATGGGGTGGAAATAA	1824
+PP098624_tail          ----------------------GGGTGA------	1173
+NC_028917_tail         ----------------------------------	1056
+NC_054980_tail         ----------------------------------	378
+NC_007062_tail         ----------------------------------	378
+NC_007060_tail         ----------------------------------	378
+Phage_88_Original      ----------------------------------	378
+NC_007063_tail         ----------------------------------	378
+NC_010147_tail         ----------------------------------	378
+                                                         

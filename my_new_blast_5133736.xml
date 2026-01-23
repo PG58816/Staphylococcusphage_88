@@ -1,0 +1,1461 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<!DOCTYPE BlastOutput PUBLIC "-//NCBI//NCBI BlastOutput/EN" "http://www.ncbi.nlm.nih.gov/dtd/NCBI_BlastOutput.dtd">
+<BlastOutput>
+  <BlastOutput_program>blastn</BlastOutput_program>
+  <BlastOutput_version>BLASTN 2.17.0+</BlastOutput_version>
+  <BlastOutput_reference>Stephen F. Altschul, Thomas L. Madden, Alejandro A. Sch&amp;auml;ffer, Jinghui Zhang, Zheng Zhang, Webb Miller, and David J. Lipman (1997), &quot;Gapped BLAST and PSI-BLAST: a new generation of protein database search programs&quot;, Nucleic Acids Res. 25:3389-3402.</BlastOutput_reference>
+  <BlastOutput_db>core_nt</BlastOutput_db>
+  <BlastOutput_query-ID>Query_8035417</BlastOutput_query-ID>
+  <BlastOutput_query-def>No definition line</BlastOutput_query-def>
+  <BlastOutput_query-len>438</BlastOutput_query-len>
+  <BlastOutput_param>
+    <Parameters>
+      <Parameters_expect>10</Parameters_expect>
+      <Parameters_sc-match>2</Parameters_sc-match>
+      <Parameters_sc-mismatch>-3</Parameters_sc-mismatch>
+      <Parameters_gap-open>5</Parameters_gap-open>
+      <Parameters_gap-extend>2</Parameters_gap-extend>
+      <Parameters_filter>L;m;</Parameters_filter>
+    </Parameters>
+  </BlastOutput_param>
+<BlastOutput_iterations>
+<Iteration>
+  <Iteration_iter-num>1</Iteration_iter-num>
+  <Iteration_query-ID>Query_8035417</Iteration_query-ID>
+  <Iteration_query-def>No definition line</Iteration_query-def>
+  <Iteration_query-len>438</Iteration_query-len>
+<Iteration_hits>
+<Hit>
+  <Hit_num>1</Hit_num>
+  <Hit_id>gi|2709354631|gb|CP150142.1|</Hit_id>
+  <Hit_def>Staphylococcus sp. FSL W8-0056 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP150142</Hit_accession>
+  <Hit_len>2818391</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>592773</Hsp_hit-from>
+      <Hsp_hit-to>593210</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>2</Hit_num>
+  <Hit_id>gi|2442345078|gb|ON513432.1|</Hit_id>
+  <Hit_def>Staphylococcus phage ASZ22RN, complete genome</Hit_def>
+  <Hit_accession>ON513432</Hit_accession>
+  <Hit_len>43579</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>23382</Hsp_hit-from>
+      <Hsp_hit-to>23819</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>3</Hit_num>
+  <Hit_id>gi|1003459616|gb|CP012409.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus subsp. aureus Tager 104 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP012409</Hit_accession>
+  <Hit_len>2820837</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>450617</Hsp_hit-from>
+      <Hsp_hit-to>450180</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>4</Hit_num>
+  <Hit_id>gi|2669629264|gb|PP098624.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 7206, complete genome</Hit_def>
+  <Hit_accession>PP098624</Hit_accession>
+  <Hit_len>44049</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>40714</Hsp_hit-from>
+      <Hsp_hit-to>41151</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>5</Hit_num>
+  <Hit_id>gi|66396333|ref|NC_007063.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 88, complete genome &gt;gi|62086036|gb|AY954966.1| Staphylococcus phage 88, complete genome</Hit_def>
+  <Hit_accession>NC_007063</Hit_accession>
+  <Hit_len>43231</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>23229</Hsp_hit-from>
+      <Hsp_hit-to>23666</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>6</Hit_num>
+  <Hit_id>gi|2316776467|gb|OP594307.1|</Hit_id>
+  <Hit_def>Staphylococcus phage Henu2 isolate PhiV_005, complete genome</Hit_def>
+  <Hit_accession>OP594307</Hit_accession>
+  <Hit_len>43513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>8121</Hsp_hit-from>
+      <Hsp_hit-to>8558</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>7</Hit_num>
+  <Hit_id>gi|66396406|ref|NC_007064.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 92, complete genome &gt;gi|62086037|gb|AY954967.1| Staphylococcus phage 92, complete genome</Hit_def>
+  <Hit_accession>NC_007064</Hit_accession>
+  <Hit_len>42431</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>23160</Hsp_hit-from>
+      <Hsp_hit-to>23597</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>8</Hit_num>
+  <Hit_id>gi|2258079307|gb|ON571632.1|</Hit_id>
+  <Hit_def>Staphylococcus phage Sushi, complete genome</Hit_def>
+  <Hit_accession>ON571632</Hit_accession>
+  <Hit_len>43755</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>40222</Hsp_hit-from>
+      <Hsp_hit-to>40659</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>9</Hit_num>
+  <Hit_id>gi|2046357276|ref|NC_054980.1|</Hit_id>
+  <Hit_def>Staphylococcus phage Henu2, complete genome &gt;gi|1562102046|gb|MK211557.1| Staphylococcus phage Henu2, complete genome</Hit_def>
+  <Hit_accession>NC_054980</Hit_accession>
+  <Hit_len>43513</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>8121</Hsp_hit-from>
+      <Hsp_hit-to>8558</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>10</Hit_num>
+  <Hit_id>gi|2190264375|gb|OM439675.1|</Hit_id>
+  <Hit_def>Staphylococcus phage vB_SauS_Mh4, complete genome</Hit_def>
+  <Hit_accession>OM439675</Hit_accession>
+  <Hit_len>44199</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>41111</Hsp_hit-from>
+      <Hsp_hit-to>41548</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>11</Hit_num>
+  <Hit_id>gi|2046357478|ref|NC_054983.1|</Hit_id>
+  <Hit_def>Staphylococcus phage UPMK_2, complete genome &gt;gi|1321070825|gb|MG564297.1| Staphylococcus phage UPMK_2, complete genome</Hit_def>
+  <Hit_accession>NC_054983</Hit_accession>
+  <Hit_len>40955</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>30381</Hsp_hit-from>
+      <Hsp_hit-to>30818</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>12</Hit_num>
+  <Hit_id>gi|1278989635|gb|MG543995.1|</Hit_id>
+  <Hit_def>Staphylococcus phage UPMK_1, partial genome</Hit_def>
+  <Hit_accession>MG543995</Hit_accession>
+  <Hit_len>152788</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>64409</Hsp_hit-from>
+      <Hsp_hit-to>64846</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>13</Hit_num>
+  <Hit_id>gi|269939526|emb|FN433596.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus subsp. aureus TW20, complete genome</Hit_def>
+  <Hit_accession>FN433596</Hit_accession>
+  <Hit_len>3043210</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>417133</Hsp_hit-from>
+      <Hsp_hit-to>417570</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>14</Hit_num>
+  <Hit_id>gi|2669629190|gb|PP098623.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 7094, complete genome</Hit_def>
+  <Hit_accession>PP098623</Hit_accession>
+  <Hit_len>43312</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>40652</Hsp_hit-from>
+      <Hsp_hit-to>41089</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>15</Hit_num>
+  <Hit_id>gi|147739516|gb|CP000703.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus subsp. aureus JH9, complete genome</Hit_def>
+  <Hit_accession>CP000703</Hit_accession>
+  <Hit_len>2906700</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>1119321</Hsp_hit-from>
+      <Hsp_hit-to>1119758</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+    <Hsp>
+      <Hsp_num>2</Hsp_num>
+      <Hsp_bit-score>628.859</Hsp_bit-score>
+      <Hsp_score>696</Hsp_score>
+      <Hsp_evalue>2.05106e-175</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>401559</Hsp_hit-from>
+      <Hsp_hit-to>401996</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>402</Hsp_identity>
+      <Hsp_positive>402</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAATAAAGCAGTACTAACTGGTTTAGTTGGAGCGTTGTTGCTATTTATCAAGCAAATCACGGATTTGTTCGGATTAGATTTATCCACTCAATTAAATCAAGCTAGCGCTATTATAGGCGCTATCCTCACATTACTTACAGGTATTGGTGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGTAGCAAAGAAGAACAACAAGTCACTTGGAAAACTTCACAAGATACTAGCTTAACACCGGAATTAAGTACAAAAGCACCGAAAGAGTACGACACATCACAACCATTTACAGACACCTCTAATGAAATCGGTTTTGACGTGAACGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||| ||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||| ||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |  ||||||||||||||||| || |||||| | |||||||| |  || ||||| ||||||||||| || |||||||| ||||| || || ||||||||||| || |||||| ||||||| ||  | || ||||| ||||| |||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>16</Hit_num>
+  <Hit_id>gi|66396191|ref|NC_007061.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 29, complete genome &gt;gi|62086034|gb|AY954964.1| Staphylococcus phage 29, complete genome</Hit_def>
+  <Hit_accession>NC_007061</Hit_accession>
+  <Hit_len>42802</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>23277</Hsp_hit-from>
+      <Hsp_hit-to>23714</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>17</Hit_num>
+  <Hit_id>gi|1997125128|gb|MW554488.1|</Hit_id>
+  <Hit_def>Staphylococcus phage BUCT556, complete genome</Hit_def>
+  <Hit_accession>MW554488</Hit_accession>
+  <Hit_len>43207</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>11888</Hsp_hit-from>
+      <Hsp_hit-to>11451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>18</Hit_num>
+  <Hit_id>gi|162290107|ref|NC_010147.1|</Hit_id>
+  <Hit_def>Staphylococcus phage phiMR11 DNA, complete genome &gt;gi|161958537|dbj|AB370268.1| Staphylococcus phage phiMR11 DNA, complete genome</Hit_def>
+  <Hit_accession>NC_010147</Hit_accession>
+  <Hit_len>43011</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>791.162</Hsp_bit-score>
+      <Hsp_score>876</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>40109</Hsp_hit-from>
+      <Hsp_hit-to>40546</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>438</Hsp_identity>
+      <Hsp_positive>438</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>19</Hit_num>
+  <Hit_id>gi|2190264225|gb|OM439673.1|</Hit_id>
+  <Hit_def>Staphylococcus phage vB_SauS_Mh1, complete genome</Hit_def>
+  <Hit_accession>OM439673</Hit_accession>
+  <Hit_len>43800</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>786.653</Hsp_bit-score>
+      <Hsp_score>871</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>40489</Hsp_hit-from>
+      <Hsp_hit-to>40926</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>437</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>20</Hit_num>
+  <Hit_id>gi|2646657190|gb|OR901656.1|</Hit_id>
+  <Hit_def>Staphylococcus phage SAP71, partial genome</Hit_def>
+  <Hit_accession>OR901656</Hit_accession>
+  <Hit_len>38553</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>786.653</Hsp_bit-score>
+      <Hsp_score>871</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>18307</Hsp_hit-from>
+      <Hsp_hit-to>17870</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>437</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAACGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>21</Hit_num>
+  <Hit_id>gi|584463070|gb|CP007176.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus USA300-ISMMS1, complete genome</Hit_def>
+  <Hit_accession>CP007176</Hit_accession>
+  <Hit_len>2921008</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>786.653</Hsp_bit-score>
+      <Hsp_score>871</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>2028768</Hsp_hit-from>
+      <Hsp_hit-to>2028331</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>437</Hsp_identity>
+      <Hsp_positive>437</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTAGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>22</Hit_num>
+  <Hit_id>gi|3027997070|gb|CP195799.1|</Hit_id>
+  <Hit_def>Staphylococcus argenteus strain BSA001 chromosome, complete genome</Hit_def>
+  <Hit_accession>CP195799</Hit_accession>
+  <Hit_len>2742080</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>782.145</Hsp_bit-score>
+      <Hsp_score>866</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>892532</Hsp_hit-from>
+      <Hsp_hit-to>892969</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>436</Hsp_identity>
+      <Hsp_positive>436</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATGCATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>23</Hit_num>
+  <Hit_id>gi|526244872|ref|NC_021863.1|</Hit_id>
+  <Hit_def>Staphylococcus phage SA13, complete genome &gt;gi|398256436|gb|JX094501.1| Staphylococcus phage SA13, complete genome</Hit_def>
+  <Hit_accession>NC_021863</Hit_accession>
+  <Hit_len>42652</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>39653</Hsp_hit-from>
+      <Hsp_hit-to>40090</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTAGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAACTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>24</Hit_num>
+  <Hit_id>gi|526178036|ref|NC_021801.1|</Hit_id>
+  <Hit_def>Staphylococcus phage SA12, complete genome &gt;gi|514343602|gb|KC677663.1| Staphylococcus phage SA12, complete genome</Hit_def>
+  <Hit_accession>NC_021801</Hit_accession>
+  <Hit_len>42902</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>34971</Hsp_hit-from>
+      <Hsp_hit-to>35408</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTAGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAACTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>25</Hit_num>
+  <Hit_id>gi|29028563|ref|NC_004615.1|</Hit_id>
+  <Hit_def>Staphylococcus phage phi 11, complete genome &gt;gi|18920487|gb|AF424781.1| Staphylococcus phage phi 11, complete genome</Hit_def>
+  <Hit_accession>NC_004615</Hit_accession>
+  <Hit_len>43604</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>40502</Hsp_hit-from>
+      <Hsp_hit-to>40939</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>26</Hit_num>
+  <Hit_id>gi|2046356958|ref|NC_054975.1|</Hit_id>
+  <Hit_def>Staphylococcus phage SA75, complete genome &gt;gi|1808644083|gb|MT013111.1| Staphylococcus phage SA75, complete genome</Hit_def>
+  <Hit_accession>NC_054975</Hit_accession>
+  <Hit_len>43134</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>24069</Hsp_hit-from>
+      <Hsp_hit-to>24506</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTAGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAACTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>27</Hit_num>
+  <Hit_id>gi|2156964186|gb|OL638402.1|</Hit_id>
+  <Hit_def>Synthetic construct note pSA75YA-500 other-genetic sequence</Hit_def>
+  <Hit_accession>OL638402</Hit_accession>
+  <Hit_len>53565</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>28437</Hsp_hit-from>
+      <Hsp_hit-to>28874</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTAGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAACTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>28</Hit_num>
+  <Hit_id>gi|1403346800|emb|LS483365.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus strain NCTC8325 genome assembly, chromosome: 1</Hit_def>
+  <Hit_accession>LS483365</Hit_accession>
+  <Hit_len>2830002</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>1935134</Hsp_hit-from>
+      <Hsp_hit-to>1934697</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>29</Hit_num>
+  <Hit_id>gi|2532655662|gb|OQ851348.1|</Hit_id>
+  <Hit_def>Staphylococcus phage MSP1, complete genome</Hit_def>
+  <Hit_accession>OQ851348</Hit_accession>
+  <Hit_len>43615</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>37104</Hsp_hit-from>
+      <Hsp_hit-to>37541</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>30</Hit_num>
+  <Hit_id>gi|402761649|gb|JX274647.1|</Hit_id>
+  <Hit_def>Staphylococcus phage SP6, complete genome</Hit_def>
+  <Hit_accession>JX274647</Hit_accession>
+  <Hit_len>42902</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>39933</Hsp_hit-from>
+      <Hsp_hit-to>40370</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTAGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAACTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>31</Hit_num>
+  <Hit_id>gi|87201381|gb|CP000253.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus subsp. aureus NCTC 8325, complete genome</Hit_def>
+  <Hit_accession>CP000253</Hit_accession>
+  <Hit_len>2821361</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>777.637</Hsp_bit-score>
+      <Hsp_score>861</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>1926510</Hsp_hit-from>
+      <Hsp_hit-to>1926073</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>435</Hsp_identity>
+      <Hsp_positive>435</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>32</Hit_num>
+  <Hit_id>gi|857291366|gb|KR709302.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 55-2, complete genome</Hit_def>
+  <Hit_accession>KR709302</Hit_accession>
+  <Hit_len>41898</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>773.128</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>37979</Hsp_hit-from>
+      <Hsp_hit-to>38416</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>434</Hsp_identity>
+      <Hsp_positive>434</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGACAGTAACAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATTATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>33</Hit_num>
+  <Hit_id>gi|2669629120|gb|PP098622.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 6199, complete genome</Hit_def>
+  <Hit_accession>PP098622</Hit_accession>
+  <Hit_len>43070</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>773.128</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>39967</Hsp_hit-from>
+      <Hsp_hit-to>40404</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>434</Hsp_identity>
+      <Hsp_positive>434</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGACGTGAACGAGTATCATCACGGAGGTGGCGACAATGCAAGCAAAATTGACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>34</Hit_num>
+  <Hit_id>gi|2709240600|gb|PP554657.1|</Hit_id>
+  <Hit_def>Staphylococcus phage mosaic phi11, complete genome</Hit_def>
+  <Hit_accession>PP554657</Hit_accession>
+  <Hit_len>42020</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>773.128</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>2627</Hsp_hit-from>
+      <Hsp_hit-to>2190</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>434</Hsp_identity>
+      <Hsp_positive>434</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTAGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTAAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAACTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>35</Hit_num>
+  <Hit_id>gi|857291865|gb|KR709303.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 55-3, complete genome</Hit_def>
+  <Hit_accession>KR709303</Hit_accession>
+  <Hit_len>42309</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>773.128</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>38412</Hsp_hit-from>
+      <Hsp_hit-to>38849</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>434</Hsp_identity>
+      <Hsp_positive>434</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGACAGTAACAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATTATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>36</Hit_num>
+  <Hit_id>gi|66396113|ref|NC_007060.1|</Hit_id>
+  <Hit_def>Staphylococcus phage 55, complete genome &gt;gi|62086033|gb|AY954963.1| Staphylococcus phage 55, complete genome</Hit_def>
+  <Hit_accession>NC_007060</Hit_accession>
+  <Hit_len>41902</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>773.128</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>23189</Hsp_hit-from>
+      <Hsp_hit-to>23626</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>434</Hsp_identity>
+      <Hsp_positive>434</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGACAGTAACAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATTATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| || || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>37</Hit_num>
+  <Hit_id>gi|2190263751|gb|OM439666.1|</Hit_id>
+  <Hit_def>Staphylococcus phage vB_SauS_321c, complete genome</Hit_def>
+  <Hit_accession>OM439666</Hit_accession>
+  <Hit_len>42397</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>773.128</Hsp_bit-score>
+      <Hsp_score>856</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>38883</Hsp_hit-from>
+      <Hsp_hit-to>39320</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>434</Hsp_identity>
+      <Hsp_positive>434</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTAGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATCAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAACTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>38</Hit_num>
+  <Hit_id>gi|1763241|gb|U72397.1|B8U72397</Hit_id>
+  <Hit_def>Bacteriophage 80 alpha holin and amidase genes, complete cds</Hit_def>
+  <Hit_accession>U72397</Hit_accession>
+  <Hit_len>3779</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>768.62</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>677</Hsp_hit-from>
+      <Hsp_hit-to>1114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTCGTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>39</Hit_num>
+  <Hit_id>gi|511838|gb|L34781.1|BPHHOLIN</Hit_id>
+  <Hit_def>Bacteriophage phi 11 holin homologue (ORF3) gene, complete cds and peptidoglycan hydrolase (lytA) gene, partial cds</Hit_def>
+  <Hit_accession>L34781</Hit_accession>
+  <Hit_len>1152</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>768.62</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>677</Hsp_hit-from>
+      <Hsp_hit-to>1114</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTCGTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||  |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>40</Hit_num>
+  <Hit_id>gi|514002521|gb|CP006044.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus CA-347, complete genome</Hit_def>
+  <Hit_accession>CP006044</Hit_accession>
+  <Hit_len>2850503</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>768.62</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>1976976</Hsp_hit-from>
+      <Hsp_hit-to>1976539</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTTAAAAATAAAGCAGTATTAACAGGTTTAGTTGGAGCATTGTTGTTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||| ||||||||| |||| ||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>41</Hit_num>
+  <Hit_id>gi|302749911|gb|CP002120.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus subsp. aureus str. JKD6008, complete genome</Hit_def>
+  <Hit_accession>CP002120</Hit_accession>
+  <Hit_len>2924344</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>768.62</Hsp_bit-score>
+      <Hsp_score>851</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>1980999</Hsp_hit-from>
+      <Hsp_hit-to>1980562</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>433</Hsp_identity>
+      <Hsp_positive>433</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTTAAAAATAAAGCAGTATTAACAGGTTTAGTTGGTGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||| ||||||||| |||| ||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>42</Hit_num>
+  <Hit_id>gi|748807120|gb|CP010526.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus subsp. aureus ST772-MRSA-V strain DAR4145, complete genome</Hit_def>
+  <Hit_accession>CP010526</Hit_accession>
+  <Hit_len>2860508</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.586</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>682356</Hsp_hit-from>
+      <Hsp_hit-to>682793</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCCAGCGCGATTATAGGTGCTATCCTCACGCTACTTACAGGGATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGACGTGAACGAGTATCATCACGGAGGTGGCGACAATGCAAGCAAAATTGACTAA</Hsp_hseq>
+      <Hsp_midline>||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| |||||||| |||||||||||| |||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||| ||||||||||| ||||||||||||||||||||||||||| |||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>43</Hit_num>
+  <Hit_id>gi|2046357407|ref|NC_054982.1|</Hit_id>
+  <Hit_def>Staphylococcus phage Sebago, complete genome &gt;gi|1603721035|gb|MK618716.1| Staphylococcus phage Sebago, complete genome</Hit_def>
+  <Hit_accession>NC_054982</Hit_accession>
+  <Hit_len>43878</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>750.586</Hsp_bit-score>
+      <Hsp_score>831</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>4171</Hsp_hit-from>
+      <Hsp_hit-to>3734</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>429</Hsp_identity>
+      <Hsp_positive>429</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAATAAAGCGGTATTAACAGGTTTAGTTGGTGCATTGTTGCTATTTATCAAGCAAATCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGTGCGATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCGATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||| ||| |||| ||||||||||| |||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||| || |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>44</Hit_num>
+  <Hit_id>gi|2295670503|gb|OM621914.1|</Hit_id>
+  <Hit_def>Staphylococcus phage PHB22a clone 22-3 genomic sequence</Hit_def>
+  <Hit_accession>OM621914</Hit_accession>
+  <Hit_len>9183</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.078</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>4429</Hsp_hit-from>
+      <Hsp_hit-to>4866</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTTAAAAATAAAGCAGTATTAACAGGTTTAGTTGGTGCATTGTTGTTATTTATCAAACAAATCACAGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||| ||||||||| |||| ||||||||||| ||||||||| |||||||||| ||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>45</Hit_num>
+  <Hit_id>gi|2316634684|gb|OM687507.1|</Hit_id>
+  <Hit_def>Staphylococcus phage PHB22a, complete genome</Hit_def>
+  <Hit_accession>OM687507</Hit_accession>
+  <Hit_len>44558</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.078</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>21863</Hsp_hit-from>
+      <Hsp_hit-to>22300</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTTAAAAATAAAGCAGTATTAACAGGTTTAGTTGGTGCATTGTTGTTATTTATCAAACAAATCACAGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||| ||||||||| |||| ||||||||||| ||||||||| |||||||||| ||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>46</Hit_num>
+  <Hit_id>gi|2316634874|gb|OM687510.1|</Hit_id>
+  <Hit_def>Staphylococcus phage PHB40a, complete genome</Hit_def>
+  <Hit_accession>OM687510</Hit_accession>
+  <Hit_len>47749</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.078</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>2668</Hsp_hit-from>
+      <Hsp_hit-to>2231</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTTAAAAATAAAGCAGTATTAACAGGTTTAGTTGGTGCATTGTTGTTATTTATCAAACAAATCACAGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||| ||||||||| |||| ||||||||||| ||||||||| |||||||||| ||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>47</Hit_num>
+  <Hit_id>gi|47208328|dbj|BA000017.4|</Hit_id>
+  <Hit_def>Staphylococcus aureus subsp. aureus Mu50 DNA, complete genome</Hit_def>
+  <Hit_accession>BA000017</Hit_accession>
+  <Hit_len>2878529</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.078</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>957570</Hsp_hit-from>
+      <Hsp_hit-to>958007</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAATAAAGCAGTACTAACTGGTTTAGTTGGAGCGTTGTTGCTATTTATCAAGCAAATCACGGATTTGTTCGGATTAGATTTATCCACTCAATTAAATCAAGCTAGCGCTATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGTGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||| ||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>48</Hit_num>
+  <Hit_id>gi|2295670573|gb|OM621923.1|</Hit_id>
+  <Hit_def>Staphylococcus phage PHB40a clone 40-1 genomic sequence</Hit_def>
+  <Hit_accession>OM621923</Hit_accession>
+  <Hit_len>16005</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.078</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>2668</Hsp_hit-from>
+      <Hsp_hit-to>2231</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>-1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTTAAAAATAAAGCAGTATTAACAGGTTTAGTTGGTGCATTGTTGTTATTTATCAAACAAATCACAGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||| ||||| ||||||||| |||| ||||||||||| ||||||||| |||||||||| ||| |||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>49</Hit_num>
+  <Hit_id>gi|2054245090|gb|MZ041098.1|</Hit_id>
+  <Hit_def>Staphylococcus phage DSP07, complete genome</Hit_def>
+  <Hit_accession>MZ041098</Hit_accession>
+  <Hit_len>42483</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.078</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>14475</Hsp_hit-from>
+      <Hsp_hit-to>14912</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAATAAAGCAGTACTAACTGGTTTAGTTGGAGCGTTGTTGCTATTTATCAAGCAAATCACGGATTTGTTCGGATTAGATTTATCCACTCAATTAAATCAAGCTAGCGCTATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGTGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||| ||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+<Hit>
+  <Hit_num>50</Hit_num>
+  <Hit_id>gi|156720466|dbj|AP009324.1|</Hit_id>
+  <Hit_def>Staphylococcus aureus subsp. aureus Mu3 DNA, complete genome</Hit_def>
+  <Hit_accession>AP009324</Hit_accession>
+  <Hit_len>2880168</Hit_len>
+  <Hit_hsps>
+    <Hsp>
+      <Hsp_num>1</Hsp_num>
+      <Hsp_bit-score>746.078</Hsp_bit-score>
+      <Hsp_score>826</Hsp_score>
+      <Hsp_evalue>0</Hsp_evalue>
+      <Hsp_query-from>1</Hsp_query-from>
+      <Hsp_query-to>438</Hsp_query-to>
+      <Hsp_hit-from>959014</Hsp_hit-from>
+      <Hsp_hit-to>959451</Hsp_hit-to>
+      <Hsp_query-frame>1</Hsp_query-frame>
+      <Hsp_hit-frame>1</Hsp_hit-frame>
+      <Hsp_identity>428</Hsp_identity>
+      <Hsp_positive>428</Hsp_positive>
+      <Hsp_gaps>0</Hsp_gaps>
+      <Hsp_align-len>438</Hsp_align-len>
+      <Hsp_qseq>ATGGATATTAACTGGAAATTGAGATTCAAAAACAAAGCAGTACTAACTGGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCACGGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_qseq>
+      <Hsp_hseq>ATGGATATTAACTGGAAATTGAGATTCAAAAATAAAGCAGTACTAACTGGTTTAGTTGGAGCGTTGTTGCTATTTATCAAGCAAATCACGGATTTGTTCGGATTAGATTTATCCACTCAATTAAATCAAGCTAGCGCTATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGTGTTATTACTGACCCAACGTCAAAAGGCGTCTCAGATTCATCTATAGCACAGACATATCAAGCGCCTAGAGATAGCAAAAAAGAAGAACAACAAGTTACGTGGAAATCATCACAAGACAGTAGTTTAACGCCGGAATTAAGCGCGAAAGCACCAAAAGAATATGATACATCACAACCTTTCACAGACGCCTCTAACGATGTTGGCTTTGATGTGAATGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA</Hsp_hseq>
+      <Hsp_midline>|||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||| ||||||||||||||||| ||||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||||||||||||||||||||||| ||||||||||||||||||||| |||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||||</Hsp_midline>
+    </Hsp>
+  </Hit_hsps>
+</Hit>
+</Iteration_hits>
+  <Iteration_stat>
+    <Statistics>
+      <Statistics_db-num>120345071</Statistics_db-num>
+      <Statistics_db-len>1046609866405</Statistics_db-len>
+      <Statistics_hsp-len>0</Statistics_hsp-len>
+      <Statistics_eff-space>0</Statistics_eff-space>
+      <Statistics_kappa>0.41</Statistics_kappa>
+      <Statistics_lambda>0.625</Statistics_lambda>
+      <Statistics_entropy>0.78</Statistics_entropy>
+    </Statistics>
+  </Iteration_stat>
+</Iteration>
+</BlastOutput_iterations>
+</BlastOutput>
