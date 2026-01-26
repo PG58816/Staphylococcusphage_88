@@ -1,0 +1,609 @@
+<!DOCTYPE html>
+
+<html lang="pt" data-content_root="./">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>bioinformatica module &#8212; Documentação s_aureus 1.0</title>
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=5ecbeea2" />
+    <link rel="stylesheet" type="text/css" href="_static/basic.css?v=b08954a9" />
+    <link rel="stylesheet" type="text/css" href="_static/alabaster.css?v=27fed22d" />
+    <script src="_static/documentation_options.js?v=bbb231ee"></script>
+    <script src="_static/doctools.js?v=fd6eb6e6"></script>
+    <script src="_static/sphinx_highlight.js?v=6ffebe34"></script>
+    <script src="_static/translations.js?v=beaedd51"></script>
+    <link rel="index" title="Índice" href="genindex.html" />
+    <link rel="search" title="Pesquisar" href="search.html" />
+    <link rel="prev" title="s_aureus" href="modules.html" />
+   
+  <link rel="stylesheet" href="_static/custom.css" type="text/css" />
+  
+
+  
+  
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="module-bioinformatica">
+<span id="bioinformatica-module"></span><h1>bioinformatica module<a class="headerlink" href="#module-bioinformatica" title="Link to this heading">¶</a></h1>
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.analisar_blast_xml">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">analisar_blast_xml</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">eval_thresh</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">float</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">1e-100</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">max_hits</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">5</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">print_seq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#analisar_blast_xml"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.analisar_blast_xml" title="Link to this definition">¶</a></dt>
+<dd><p>Analisa resultados de BLAST em formato XML e imprime um resumo dos alinhamentos.</p>
+<p>A função:
+- Lê um ficheiro BLAST XML.
+- Itera sobre cada consulta (query) e apresenta o número de alinhamentos.
+- Para cada alinhamento, imprime os detalhes do hit (definição, accession, comprimento).
+- Para cada HSP, imprime o alinhamento se o E-value for inferior ao limiar especificado.
+- Limita a impressão aos primeiros <cite>max_hits</cite> alinhamentos de cada query.
+- Opcionalmente, imprime os primeiros 100 nucleótidos/aminoácidos do HSP (<cite>query</cite>, <cite>match</cite>, <cite>sbjct</cite>).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>file</strong> (<em>str</em>) – Caminho para o ficheiro BLAST XML.</p></li>
+<li><p><strong>eval_thresh</strong> (<em>float</em>) – Limiar de E-value para exibir alinhamentos.</p></li>
+<li><p><strong>max_hits</strong> (<em>int</em>) – Número máximo de hits a imprimir por query.</p></li>
+<li><p><strong>print_seq</strong> (<em>bool</em>) – Se True, imprime os primeiros 100 caracteres das sequências do HSP.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>None. Os resultados são apresentados no ecrã.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">analisar_blast_xml</span><span class="p">(</span><span class="s2">&quot;my_blast_5133735.xml&quot;</span><span class="p">,</span> <span class="n">eval_thresh</span><span class="o">=</span><span class="mf">0.01</span><span class="p">,</span> <span class="n">max_hits</span><span class="o">=</span><span class="mi">3</span><span class="p">,</span> <span class="n">print_seq</span><span class="o">=</span><span class="kc">False</span><span class="p">)</span>
+<span class="go">Consulta: sp|P12345|Example_protein</span>
+<span class="go">Número de alinhamentos: 10</span>
+<span class="go">Hit: Example protein ABC</span>
+<span class="go">Accession: ABC123</span>
+<span class="go">Comprimento: 250</span>
+<span class="go">Alinhamento</span>
+<span class="go">E-value: 1e-20</span>
+<span class="go">Score: 200</span>
+<span class="go">Identidade: 180</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.analisar_variantes">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">analisar_variantes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nome_proteina</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dna_fago88</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">dna_homologo</span></span></em><span class="sig-paren">)</span><a class="reference internal" href="_modules/bioinformatica.html#analisar_variantes"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.analisar_variantes" title="Link to this definition">¶</a></dt>
+<dd><p>Analisa e compara variantes proteicas a partir de duas sequências de DNA.</p>
+<p>Esta função limpa as sequências de entrada, traduz para proteína utilizando a tabela genética bacteriana (11) e imprime as mutações (substituições) encontradas posição a posição.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>nome_proteina</strong> (<em>str</em>) – O nome da proteína em análise (ex: “Holina”)</p></li>
+<li><p><strong>dna_fago88</strong> (<em>str</em>) – A sequência de nucleótidos do fago em estudo</p></li>
+<li><p><strong>dna_homologo</strong> (<em>str</em>) – A sequência de nucleótidos do fago homólogo para comparação</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>None (A função imprime os resultados diretamente no terminal)</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">dna_holi_fago88</span> <span class="o">=</span> <span class="s2">&quot;ATGGATATTAACT-GGAA-ATTGAGATTCAAAAACAAAGCAGTACTAACT----GGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCAC----GGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAAC-------GTCAAAAGGCGTCTCAGATTCATCTATAGCACAG--ACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGT-GGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAG-------AAT---ATGATACAT---CACAACCTTTCACA-GACGCCTCTAACGATGTTGGCTTTGATGTGAA------------------TGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">dna_holi_homologo</span> <span class="o">=</span> <span class="s2">&quot;ATGGATATTAACT-GGAA-ATTGAGATTCAAAAACAAAGCAGTACTAACT----GGTTTAGTTGGAGCATTGTTGCTATTTATCAAGCAAGTCAC----GGATTTATTCGGATTAGATTTATCTACTCAATTAAATCAAGCTAGCGCAATTATAGGCGCTATCCTCACGTTACTTACAGGTATTGGCGTTATTACTGACCCAAC-------GTCAAAAGGCGTCTCAGATTCATCTATAGCACAG--ACATATCAAGCGCCTAGAGATAGCAATAAAGAAGAACAACAAGTTACGT-GGAAATCATCACAAGACAGCAGTTTAACGCCGGAATTAAGCACGAAAGCACCAAAAG-------AAT---ATGATACAT---CACAACCTTTCACA-GACGCCTCTAACGATGTTGGCTTTGATGTGAA------------------TGAGTATCATCATGGAGGTGGCGACAATGCAAGCAAAATTAACTAA&quot;</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">analisar_variantes</span><span class="p">(</span><span class="s2">&quot;Holina&quot;</span><span class="p">,</span> <span class="n">dna_holi_fago88</span><span class="p">,</span> <span class="n">dna_holi_homologo</span><span class="p">)</span>
+<span class="go">Análise de variantes da Holina:</span>
+</pre></div>
+</div>
+<p>Proteína do nosso fago: MDINWKLRFKNKAVLTGLVGALLLFIKQVTDLFGLDLSTQLNQASAIIGAILTLLTGIGVITDPTSKGVSDSSIAQTYQAPRDSNKEEQQVTWKSSQDSSLTPELSTKAPKEYDTSQPFTDASNDVGFDVNEYHHGGGDNASKIN*
+Proteína do fago homólogo: MDINWKLRFKNKAVLTGLVGALLLFIKQVTDLFGLDLSTQLNQASAIIGAILTLLTGIGVITDPTSKGVSDSSIAQTYQAPRDSNKEEQQVTWKSSQDSSLTPELSTKAPKEYDTSQPFTDASNDVGFDVNEYHHGGGDNASKIN*</p>
+<p>Tamanho da proteína do fago 88: 146 aminoácidos</p>
+<p>Foram encontradas 0 mutações.</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.analise_orfs_e_prots">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">analise_orfs_e_prots</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tamanho_min</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">int</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">300</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tabela_trad</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'Bacterial'</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">motivo</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'GAATTC'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#analise_orfs_e_prots"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.analise_orfs_e_prots" title="Link to this definition">¶</a></dt>
+<dd><p>Identifica ORFs (Open Reading Frames) numa sequência e traduz para proteínas (com ou sem paragem no primeiro codão de stop).
+Pesquisa também por motivos específicos na sequência original e nas ORFs.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>seq</strong> (<em>Bio.Seq.Seq</em>) – Sequência de DNA a analisar.</p></li>
+<li><p><strong>tamanho_min</strong> (<em>int</em>) – Tamanho mínimo da ORF em nucleótidos.</p></li>
+<li><p><strong>tabela_trad</strong> (<em>str</em>) – Tabela de tradução genética utilizada.</p></li>
+<li><p><strong>motivo</strong> (<em>str</em>) – Motivo (string) a procurar na sequência e nas ORFs.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>None. Os resultados são apresentados no ecrã.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">Bio.Seq</span><span class="w"> </span><span class="kn">import</span> <span class="n">Seq</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">seq</span> <span class="o">=</span> <span class="n">Seq</span><span class="p">(</span><span class="s2">&quot;ATGCGTATGTTAGCCGGATTCGCTAGCTAGCTAGCTAGCTAGCTAGCT&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">analise_orfs_e_prots</span><span class="p">(</span><span class="n">seq</span><span class="p">,</span> <span class="n">tamanho_min</span><span class="o">=</span><span class="mi">30</span><span class="p">,</span> <span class="n">motivo</span><span class="o">=</span><span class="s2">&quot;GAATTC&quot;</span><span class="p">)</span>
+<span class="go">ORFs encontrados (início, fim, tamanho_aa): [...]</span>
+<span class="go">Proteína ORF1: M...</span>
+<span class="go">Motivo GAATTC encontrado nas posições: [...]</span>
+<span class="go">Motivo nas ORFs: {...}</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.analise_seq">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">analise_seq</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Seq</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#analise_seq"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.analise_seq" title="Link to this definition">¶</a></dt>
+<dd><p>Analisa uma sequência nucleotídica, fornecendo métricas básicas de exploração e qualidade biológica.</p>
+<p>Esta função calcula:
+- O comprimento da sequência em nucleótidos.
+- A composição de cada nucleótido (A, T, G, C).
+- A percentagem de GC.
+- As posições dos codões de início e término (moldura de leitura 0).</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>seq</strong> (<em>Bio.Seq.Seq ou str</em>) – Sequência de DNA ou RNA a analisar</p>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>None (os resultados são impressos no ecrã)</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">Bio.Seq</span><span class="w"> </span><span class="kn">import</span> <span class="n">Seq</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">seq</span> <span class="o">=</span> <span class="n">Seq</span><span class="p">(</span><span class="s2">&quot;ATGCGTATGTTAG&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">analise_seq</span><span class="p">(</span><span class="n">seq</span><span class="p">)</span>
+<span class="go">Comprimento da sequência: 13 nucleótidos</span>
+<span class="go">Composição nucleotídica: Counter({&#39;A&#39;: 5, &#39;T&#39;: 4, &#39;G&#39;: 3, &#39;C&#39;: 1})</span>
+<span class="go">GC% = 30.77</span>
+<span class="go">Codões de início encontrados em: 0 3 6</span>
+<span class="go">Codões de término encontrados em: 9</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.avaliar_alinhamento">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">avaliar_alinhamento</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_alignment</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format_alignment</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'clustal'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">tuple</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">str</span><span class="p"><span class="pre">,</span></span><span class="w"> </span><span class="pre">float</span><span class="p"><span class="pre">]</span></span><span class="p"><span class="pre">]</span></span></span></span><a class="reference internal" href="_modules/bioinformatica.html#avaliar_alinhamento"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.avaliar_alinhamento" title="Link to this definition">¶</a></dt>
+<dd><p>Avalia um alinhamento múltiplo de sequências, calculando a identidade entre todos os pares de sequências.
+Retorna uma lista de tuplos com os pares de sequências e o score de identidade em percentagem, ordenada de forma decrescente.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>file_alignment</strong> (<em>str</em>) – Caminho para o arquivo de alinhamento.</p></li>
+<li><p><strong>format_alignment</strong> (<em>str</em>) – Formato do alinhamento (padrão «clustal»)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>Lista de tuplos ordenada decrescentemente.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list[tuple[str, str, float]]</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">scores</span> <span class="o">=</span> <span class="n">avaliar_alinhamento</span><span class="p">(</span><span class="s2">&quot;tail.aln-clustal_num&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">scores</span><span class="p">[:</span><span class="mi">5</span><span class="p">]</span>
+<span class="go">[(&#39;seq1&#39;, &#39;seq3&#39;, 98.5), (&#39;seq2&#39;, &#39;seq4&#39;, 97.3), ...]</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.consultar_genbank">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">consultar_genbank</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">protein_ids</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">nucleotide_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#consultar_genbank"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.consultar_genbank" title="Link to this definition">¶</a></dt>
+<dd><p>Consulta registros GenBank de proteínas e nucleótidos no NCBI
+e imprime informações resumidas sobre cada sequência.</p>
+<p>A função:
+- Define o email para a API do NCBI Entrez.
+- Obtém registros de proteínas pelos seus IDs.
+- Obtém registro de nucleótido pelo seu ID.
+- Para cada registro, imprime:</p>
+<blockquote>
+<div><ul class="simple">
+<li><p>ID</p></li>
+<li><p>Descrição (primeiros 100 caracteres)</p></li>
+<li><p>Tamanho da sequência</p></li>
+<li><p>Número de features</p></li>
+<li><p>Organismo fonte</p></li>
+</ul>
+</div></blockquote>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>protein_ids</strong> (<em>list</em><em>[</em><em>str</em><em>]</em>) – Lista de IDs de proteínas a consultar.</p></li>
+<li><p><strong>nucleotide_id</strong> (<em>str</em>) – ID do registro de nucleótido a consultar.</p></li>
+<li><p><strong>email</strong> (<em>str</em>) – Email a usar na API do NCBI Entrez.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>None. Os resultados são apresentados no ecrã.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">consultar_genbank</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="n">protein_ids</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;YP_240699.1&quot;</span><span class="p">,</span> <span class="s2">&quot;YP_240698.1&quot;</span><span class="p">,</span> <span class="s2">&quot;YP_240692.1&quot;</span><span class="p">],</span>
+<span class="gp">... </span>    <span class="n">nucleotide_id</span><span class="o">=</span><span class="s2">&quot;NC_007063&quot;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">email</span><span class="o">=</span><span class="s2">&quot;utilizador@exemplo.pt&quot;</span>
+<span class="gp">... </span><span class="p">)</span>
+<span class="go">Proteínas</span>
+</pre></div>
+</div>
+<p>ID: YP_240699.1
+Descrição: …
+Tamanho da sequência: 350
+Número de features: 3
+Organismo: Staphylococcus aureus</p>
+<p>ID: NC_007063
+Descrição: …
+Tamanho da sequência: 2842790
+Número de features: 2600
+Organismo: Staphylococcus aureus</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.desenhar_arvore">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">desenhar_arvore</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">tree</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Tree</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tree</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#desenhar_arvore"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.desenhar_arvore" title="Link to this definition">¶</a></dt>
+<dd><p>Desenha a árvore filogenética em formato ASCII.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><p><strong>tree</strong> (<em>Bio.Phylo.BaseTree.Tree</em>) – Objeto da árvore filogenética</p>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>O objeto da árvore fornecida</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Bio.Phylo.BaseTree.Tree</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">Bio</span><span class="w"> </span><span class="kn">import</span> <span class="n">Phylo</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">arvore</span> <span class="o">=</span> <span class="n">Phylo</span><span class="o">.</span><span class="n">read</span><span class="p">(</span><span class="s2">&quot;tail.phylotree&quot;</span><span class="p">,</span> <span class="s2">&quot;newick&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">desenhar_arvore</span><span class="p">(</span><span class="n">arvore</span><span class="p">)</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.detalhar_genbank_nucleotide">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">detalhar_genbank_nucleotide</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">nucleotide_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#detalhar_genbank_nucleotide"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.detalhar_genbank_nucleotide" title="Link to this definition">¶</a></dt>
+<dd><p>Obtém e imprime detalhes completos de um registro GenBank de nucleótido.</p>
+<p>A função:
+- Lê um registro GenBank do NCBI usando o ID fornecido.
+- Imprime informações gerais (ID, name, descrição, comprimento, organismo, fonte, tipo de molécula, topologia, taxonomia, data).
+- Lista referências bibliográficas associadas ao registro.
+- Lista todas as features, suas localizações e qualifiers.
+- Imprime a sequência completa.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>nucleotide_id</strong> (<em>str</em>) – ID do registro de nucleótido a consultar.</p></li>
+<li><p><strong>email</strong> (<em>str</em>) – Email a usar na API do NCBI Entrez.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>None. Os resultados são apresentados no ecrã.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">detalhar_genbank_nucleotide</span><span class="p">(</span><span class="s2">&quot;NC_007063&quot;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s2">&quot;utilizador@exemplo.pt&quot;</span><span class="p">)</span>
+<span class="go">ID: NC_007063</span>
+<span class="go">Name: CP000253</span>
+<span class="go">Description: Staphylococcus aureus subsp. aureus ST88, complete genome...</span>
+<span class="go">Sequence length: 2842790</span>
+<span class="go">Organism: Staphylococcus aureus subsp. aureus ST88</span>
+<span class="go">Source: Staphylococcus aureus</span>
+<span class="go">Molecule type: DNA</span>
+<span class="go">Topology: circular</span>
+<span class="go">Taxonomy: [&#39;Bacteria&#39;, &#39;Firmicutes&#39;, &#39;Bacilli&#39;, &#39;Bacillales&#39;, &#39;Staphylococcaceae&#39;, &#39;Staphylococcus&#39;]</span>
+<span class="go">Date: 2006-11-20</span>
+<span class="go">.. rubric:: References</span>
+</pre></div>
+</div>
+<p>Authors: Smith J, et al.
+Title: Complete genome sequence…
+Journal: J Bacteriol 2006…</p>
+<dl>
+<dt>FEATURES:</dt><dd><p>Type: gene
+Location: [100:900]</p>
+<blockquote>
+<div><p>locus_tag: SA_ST88_0001</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>SEQUENCE:
+ATGCGTATGTTAG…</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.detalhar_genbank_protein">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">detalhar_genbank_protein</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">protein_id</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#detalhar_genbank_protein"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.detalhar_genbank_protein" title="Link to this definition">¶</a></dt>
+<dd><p>Obtém e imprime detalhes completos de um registro GenBank de proteína.</p>
+<p>A função:
+- Lê um registro GenBank de proteína do NCBI usando o ID fornecido.
+- Imprime informações gerais (ID, name, descrição, comprimento, organismo, fonte).
+- Lista referências bibliográficas associadas ao registro.
+- Lista todas as features, suas localizações e qualifiers.
+- Imprime a sequência completa de aminoácidos.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>protein_id</strong> (<em>str</em>) – ID do registro de proteína a consultar.</p></li>
+<li><p><strong>email</strong> (<em>str</em>) – Email a usar na API do NCBI Entrez.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>None. Os resultados são apresentados no ecrã.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">detalhar_genbank_protein</span><span class="p">(</span><span class="s2">&quot;YP_240699.1&quot;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s2">&quot;utilizador@exemplo.pt&quot;</span><span class="p">)</span>
+<span class="go">ID: YP_240699.1</span>
+<span class="go">Name: YP_240699</span>
+<span class="go">Description: endolysin [Staphylococcus phage 88]</span>
+<span class="go">Sequence length: 481</span>
+<span class="go">Organism: Staphylococcus phage 88</span>
+<span class="go">Source: Staphylococcus phage 88</span>
+<span class="go">.. rubric:: References</span>
+</pre></div>
+</div>
+<p>Authors: …
+Title: …
+Journal: …</p>
+<dl>
+<dt>FEATURES:</dt><dd><p>Type: source
+Location: [0:481]</p>
+<blockquote>
+<div><p>organism: Staphylococcus phage 88</p>
+</div></blockquote>
+</dd>
+</dl>
+<p>SEQUENCE:
+MKKL…</p>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.extrair_genes">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">extrair_genes</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">gb_file</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">ids_hits</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">palavra_chave</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">output_fasta</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'sequencias_hits.fasta'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">SeqRecord</span><span class="p"><span class="pre">]</span></span></span></span><a class="reference internal" href="_modules/bioinformatica.html#extrair_genes"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.extrair_genes" title="Link to this definition">¶</a></dt>
+<dd><p>Extrai genes de um registro GenBank e de uma lista de hits no NCBI cujo produto ou locus_tag contenha a palavra-chave especificada.
+Salva os genes encontrados num ficheiro FASTA e retorna a lista de SeqRecords.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>gb_file</strong> (<em>str</em>) – Caminho para o arquivo GenBank original a analisar.</p></li>
+<li><p><strong>ids_hits</strong> (<em>list</em><em>[</em><em>str</em><em>]</em>) – Lista de IDs de hits nucleotídicos no NCBI.</p></li>
+<li><p><strong>palavra_chave</strong> (<em>str</em>) – Palavra-chave a procurar nos produtos ou locus_tags.</p></li>
+<li><p><strong>email</strong> (<em>str</em>) – Email a usar na API do NCBI Entrez.</p></li>
+<li><p><strong>output_fasta</strong> (<em>str</em>) – Nome do ficheiro de output FASTA.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>Lista de SeqRecords correspondentes aos genes encontrados.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>list[Bio.SeqRecord.SeqRecord]</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">sequencias</span> <span class="o">=</span> <span class="n">extrair_genes</span><span class="p">(</span><span class="n">gb_file</span><span class="o">=</span><span class="s2">&quot;5133735.gb&quot;</span><span class="p">,</span> <span class="n">ids_hits</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;NC_007063&quot;</span><span class="p">,</span> <span class="s2">&quot;ON571632&quot;</span><span class="p">],</span> <span class="n">palavra_chave</span><span class="o">=</span><span class="s2">&quot;lysin&quot;</span><span class="p">,</span> <span class="n">email</span><span class="o">=</span><span class="s2">&quot;utilizador@exemplo.pt&quot;</span><span class="p">,</span> <span class="n">output_fasta</span><span class="o">=</span><span class="s2">&quot;hits_lysin.fasta&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">len</span><span class="p">(</span><span class="n">sequencias</span><span class="p">)</span>
+<span class="go">3</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.genbank_features">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">genbank_features</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">email</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">accession</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">locus_tags</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">list</span><span class="p"><span class="pre">[</span></span><span class="pre">str</span><span class="p"><span class="pre">]</span></span></span></em>, <em class="sig-param"><span class="n"><span class="pre">print_features</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">bool</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">True</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">DataFrame</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#genbank_features"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.genbank_features" title="Link to this definition">¶</a></dt>
+<dd><p>Obtém um registo GenBank do NCBI, filtra features por locus_tag e devolve os resultados num DataFrame.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>email</strong> (<em>str</em>) – Email a usar na API do NCBI Entrez.</p></li>
+<li><p><strong>accession</strong> (<em>str</em>) – Accession number do GenBank.</p></li>
+<li><p><strong>locus_tags</strong> (<em>list</em><em>[</em><em>str</em><em>]</em>) – Lista de locus_tag a filtrar.</p></li>
+<li><p><strong>print_features</strong> (<em>bool</em>) – Se True, imprime os qualifiers das features encontradas.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>DataFrame com as features filtradas e respetivos qualifiers.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>pandas.DataFrame</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">Bio</span><span class="w"> </span><span class="kn">import</span> <span class="n">Entrez</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span><span class="w"> </span><span class="nn">pandas</span><span class="w"> </span><span class="k">as</span><span class="w"> </span><span class="nn">pd</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">df</span> <span class="o">=</span> <span class="n">genbank_features</span><span class="p">(</span>
+<span class="gp">... </span>    <span class="n">email</span><span class="o">=</span><span class="s2">&quot;utilizador@exemplo.pt&quot;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">accession</span><span class="o">=</span><span class="s2">&quot;NC_007063&quot;</span><span class="p">,</span>
+<span class="gp">... </span>    <span class="n">locus_tags</span><span class="o">=</span><span class="p">[</span><span class="s2">&quot;ST88ORF033&quot;</span><span class="p">,</span> <span class="s2">&quot;ST88ORF006&quot;</span><span class="p">]</span>
+<span class="gp">... </span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">df</span><span class="o">.</span><span class="n">head</span><span class="p">()</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.imprimir_arvore">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">imprimir_arvore</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">file_tree</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">format_tree</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'newick'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">Tree</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#imprimir_arvore"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.imprimir_arvore" title="Link to this definition">¶</a></dt>
+<dd><p>Lê uma árvore filogenética a partir de um ficheiro e imprime a sua representação.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>file_tree</strong> (<em>str</em>) – Caminho para o ficheiro da árvore.</p></li>
+<li><p><strong>format_tree</strong> (<em>str</em>) – Formato do ficheiro da árvore (padrão «newick»)</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>Objeto da árvore filogenética lida</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>Bio.Phylo.BaseTree.Tree</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="n">arvore</span> <span class="o">=</span> <span class="n">imprimir_arvore</span><span class="p">(</span><span class="s2">&quot;tail.phylotree&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="nb">print</span><span class="p">(</span><span class="n">arvore</span><span class="o">.</span><span class="n">rooted</span><span class="p">)</span>
+<span class="go">True</span>
+</pre></div>
+</div>
+</dd></dl>
+
+<dl class="py function">
+<dt class="sig sig-object py" id="bioinformatica.transformar_seq">
+<span class="sig-prename descclassname"><span class="pre">bioinformatica.</span></span><span class="sig-name descname"><span class="pre">transformar_seq</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">seq</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">Seq</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">tabela_trad</span></span><span class="p"><span class="pre">:</span></span><span class="w"> </span><span class="n"><span class="pre">str</span></span><span class="w"> </span><span class="o"><span class="pre">=</span></span><span class="w"> </span><span class="default_value"><span class="pre">'Bacterial'</span></span></em><span class="sig-paren">)</span> <span class="sig-return"><span class="sig-return-icon">&#x2192;</span> <span class="sig-return-typehint"><span class="pre">None</span></span></span><a class="reference internal" href="_modules/bioinformatica.html#transformar_seq"><span class="viewcode-link"><span class="pre">[código</span> <span class="pre">fonte]</span></span></a><a class="headerlink" href="#bioinformatica.transformar_seq" title="Link to this definition">¶</a></dt>
+<dd><p>Aplica várias transformações a uma sequência nucleotídica.</p>
+<p>Esta função gera e apresenta:
+- Sequência original
+- Sequência complementar
+- Sequência complementar reversa
+- Transcrição para RNA
+- Retrotranscrição (RNA → DNA)
+- Tradução para proteína com a tabela de tradução</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parâmetros<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>seq</strong> (<em>Bio.Seq.Seq ou str</em>) – Sequência de DNA ou RNA a transformar.</p></li>
+<li><p><strong>tabela_trad</strong> (<em>str</em>) – Tabela de tradução a usar (padrão «Bacterial»).</p></li>
+</ul>
+</dd>
+<dt class="field-even">Retorno<span class="colon">:</span></dt>
+<dd class="field-even"><p>None. Os resultados são apresentados no ecrã.</p>
+</dd>
+<dt class="field-odd">Tipo de retorno<span class="colon">:</span></dt>
+<dd class="field-odd"><p>None</p>
+</dd>
+<dt class="field-even">Example<span class="colon">:</span></dt>
+<dd class="field-even"><p></p></dd>
+</dl>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span><span class="w"> </span><span class="nn">Bio.Seq</span><span class="w"> </span><span class="kn">import</span> <span class="n">Seq</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">minha_seq</span> <span class="o">=</span> <span class="n">Seq</span><span class="p">(</span><span class="s2">&quot;ATGCGTATGTTAG&quot;</span><span class="p">)</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">transformar_seq</span><span class="p">(</span><span class="n">minha_seq</span><span class="p">,</span> <span class="n">tabela_trad</span><span class="o">=</span><span class="s2">&quot;Bacterial&quot;</span><span class="p">)</span>
+<span class="go">Sequência:</span>
+<span class="go">ATGCGTATGTTAG</span>
+<span class="go">Sequência complementar:</span>
+<span class="go">TACGCATACAATC</span>
+<span class="go">Sequência complementar reversa:</span>
+<span class="go">CTAACATACGCAT</span>
+<span class="go">Transcrição:</span>
+<span class="go">AUGCGUAUGUUAG</span>
+<span class="go">Transcrição reversa:</span>
+<span class="go">ATGCGTATGTTAG</span>
+<span class="go">Tradução:</span>
+<span class="go">MRTL</span>
+</pre></div>
+</div>
+</dd></dl>
+
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="Main">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="index.html">s_aureus</a></h1>
+
+
+
+
+
+
+
+
+
+<search id="searchbox" style="display: none" role="search">
+    <div class="searchformwrapper">
+    <form class="search" action="search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false" placeholder="Search"/>
+      <input type="submit" value="Ir" />
+    </form>
+    </div>
+</search>
+<script>document.getElementById('searchbox').style.display = "block"</script><h3>Navegação</h3>
+<p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="modules.html">s_aureus</a><ul class="current">
+<li class="toctree-l2 current"><a class="current reference internal" href="#">bioinformatica module</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="index.html">Documentation overview</a><ul>
+  <li><a href="modules.html">s_aureus</a><ul>
+      <li>Previous: <a href="modules.html" title="capítulo anterior">s_aureus</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &#169;2026, grupo_4.
+      
+      |
+      Powered by <a href="https://www.sphinx-doc.org/">Sphinx 9.1.0</a>
+      &amp; <a href="https://alabaster.readthedocs.io">Alabaster 1.0.0</a>
+      
+      |
+      <a href="_sources/bioinformatica.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
